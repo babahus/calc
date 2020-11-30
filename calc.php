@@ -29,13 +29,6 @@ if (isset($_POST['submit'])) {
     }
 }
 
-/*if (isset($_POST['submit'])) {
-    if ($_POST['operation'] === 'divide' && $number2 != '0') {
-        $result = $number1 / $number2;
-        echo $result;
-    } else {
-        exit("Bad operation");
-    }
-}*/
+
 
 
