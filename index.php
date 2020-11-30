@@ -9,7 +9,7 @@
     <form action="calc.php" method="post" class="calculate-form">
         <div class="form-group row">
             <div class="col-3">
-                <input class="form-control" name= "number1" id = "number1" type="number" step="any" placeholder="First number" >
+                <input class="form-control" name="number1" id ="number1" type="number" step="any" placeholder="First number" >
             </div>
         </div>
         <div class="form-group">
