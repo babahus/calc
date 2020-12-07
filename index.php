@@ -45,6 +45,15 @@
             </div>
         </div>
         <input  class="submit_form" type="submit" name="submit" value="Result">
+
+        <?php
+        echo "<br>";
+        if(isset($_COOKIE["result"])){
+            echo "<br>";
+            $result = $_COOKIE["result"];
+            echo "The result is ".$result.".";
+        }
+        ?>
     </form>
 </body>
 </html>
